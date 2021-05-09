@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 3rem;
+    font-family: 'Rancho', cursive;
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.count-down{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Rancho', cursive;
+}
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 3rem;
+}
+.ssvg{
+    height: 50vh;
+    margin-left: 18%;
+}
